@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c5a0cb29f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./Images/Yugesan.__1_-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               
+                <h1>Hi, I'm <span>Yuges </span><br> <p>Fullstack Java Developer</p></h1>
+            </div>
+        </div>
+    </div>
+     <!-- ABOUT --> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/Yuges.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About Me</h1>
+                    <p>
+                        As a beginner of Java developer in the field of Information Technology, I strive to associate myself with an
+                        organization where I can utilize my skills in the best possible manner, and and I confident about the core Java
+                        and Frontend development and also I, do my work with perfection is my habit.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p> 
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Fontend</span><br>Html,Css,Js</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>Core Java</span><br>Core Java Progarms</li>
+                            <li><span>Github and Canva</span><br>Poster desinging and github </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>I'm Fresher....</span><br>So, I did't have a Experience, but I have a strong Technical skills about my Projects and my skillset and also, I Completed the course called Full stack Java with Certification </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br> Kongunadu College of Engineering And Technology</li>
+                            <li><span>2020</span><br>Sri krishna matriculation higher secondary school</li>
+                            <li><span>2018</span><br>Reena mercy matriculation school</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------services-------------->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title" >My Services</h1> 
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Fontend development</h2>
+                <p>For the Fontend development i have to use these technical skills (Html,Css,Js and Bootstrap) for the fontend development</p>
+              
+              </div>  
+              <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>SQL</h2>
+                <p>In SQL, i have the basic knowledge of it, But i sure about that i would develop much more knowledge in the SQL  </p>
+                
+              </div> 
+              <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Core Java</h2>
+                <p>In Java, i have strong technical skills and also developed projects based on the java that are mention in below of the portfolio</p>
+              
+              </div> 
+            </div>
+        </div>
+     </div>
+
+<!----------Portfolio----------->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" >My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Images/work1.jpg">
+                    <div class="layer">
+                        <h3>Restaurants Menu System </h3>
+                        <p>I Build the full functional Restaurants menu system using the core
+                            Java programming language, Which perform just like the real
+                            restaurants menu system.</p>
+                        <a href="https://github.com/yuges812/resturant"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/work2.jpg">
+                    <div class="layer">
+                        <h3>ATM Machine System </h3>
+                        <p>I developed project of  the ATM Machine System using the core Java
+                            programming language. Which perform just like the real ATM
+                            Machine.</p>
+                        <a href="https://github.com/yuges812/ATM-"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/work3.jpg">
+                    <div class="layer">
+                        <h3>SRM Collage website</h3>
+                        <p>I Build the Website that Seems just like the SRM Collage website
+                            using HTML, CSS, Javascript.</p>
+                        <a href="https://github.com/yuges812/SRM"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>  
+                </div>
+            </div>
+         <!---<a href="#" class="btn">See more</a>  ----> 
+        </div>
+     </div>
+
+<!-- ------------------contact--------------------- -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                     <h1 class="sub-title">Contact Me</h1>
+                     <p><i class="fa-solid fa-paper-plane"></i>yugesan2003@gmail.com</p>
+                     <p><i class="fa-solid fa-phone"></i>9597717319</p>
+                     <div class="social-icons">
+                        <a href="https://www.instagram.com/_yugex._812?igsh=MXV4NWFhbjVpbHVtYw=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="mailto:yugesan2003@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="http://www.linkedin.com/in/yugesan-b-a62273263"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/yuges812?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                     </div>
+                     <a href="./Images/YUGESAN 's Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&#169 2024 copyrights all right reserved</p>
+        </div>
+     </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx3KaKg5xZQji8no5rbTL7D0Fgyi-aNskWmZLEq8GBalMIyAN19lJJ7zCj4unqSYQd3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
